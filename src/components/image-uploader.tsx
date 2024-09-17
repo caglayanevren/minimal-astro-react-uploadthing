@@ -1,9 +1,9 @@
-import { UploadDropzone } from "~/utils/uploadthing";
+import { UploadButton } from "~/utils/uploadthing";
 
 export function ImageUploader() {
   return (
-    <UploadDropzone
-      endpoint="pdfFileRoute"
+    <UploadButton
+      endpoint="videoAndImage"
       onClientUploadComplete={(res) => {
         // Do something with the response
         console.log("Files: ", res);

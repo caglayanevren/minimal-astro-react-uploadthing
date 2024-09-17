@@ -1,25 +1,25 @@
 {
-    "name": "@example/minimal-astro-react",
-    "type": "module",
-    "private": true,
-    "scripts": {
-        "dev": "astro dev",
-        "clean": "git clean -xdf dist .astro node_modules",
-        "build": "astro build",
-        "preview": "astro preview",
-        "astro": "astro"
-    },
-    "dependencies": {
-        "@astrojs/node": "^8.3.3",
-        "@astrojs/react": "^3.6.2",
-        "@uploadthing/react": "7.0.2",
-        "astro": "^4.15.6",
-        "react": "18.3.1",
-        "react-dom": "18.3.1",
-        "uploadthing": "7.0.2"
-    },
-    "devDependencies": {
-        "@types/react": "18.3.6",
-        "@types/react-dom": "18.3.0"
-    }
+  "name": "@example/minimal-astro-react",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "clean": "git clean -xdf dist node_modules",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/node": "^8.2.1",
+    "@astrojs/react": "^3.0.10",
+    "@uploadthing/react": "7.0.1",
+    "astro": "^4.4.5",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "uploadthing": "7.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.3",
+    "@types/react-dom": "18.3.0"
+  }
 }
