@@ -12,6 +12,6 @@ export const ALL = createRouteHandler({
     router: uploadRouter,
     config: {
         token: import.meta.env.UPLOADTHING_TOKEN,
-        //logLevel: "Debug",
+        logLevel: 'Debug',
     },
 });

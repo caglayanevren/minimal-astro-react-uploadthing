@@ -7,6 +7,6 @@ export default defineConfig({
     integrations: [react()],
     output: 'hybrid',
     adapter: nodejs({
-        mode: 'standalone',
+        mode: 'middleware',
     }),
 });
